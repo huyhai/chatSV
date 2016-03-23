@@ -4,7 +4,7 @@
 var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
-var io = require('C:/Program Files/nodejs/node_modules/npm/node_modules/socket.io')(server);
+var io = require('socket.io')(server);
  
 var port = process.env.PORT || 3000;
  
